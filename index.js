@@ -4,7 +4,7 @@ require('./prod')(app);
 const mongoose = require('mongoose');
 const {tradeRouter} = require('./routes/trades');
 const {fetchRouter} = require('./routes/fetch');
-const port = 3000 || process.env.PORT;
+const port = process.env.PORT || 3000;
 
 //connect to db
 mongoose.connect('mongodb://localhost:27017/smallcasePortfolio', {useNewUrlParser:true, useUnifiedTopology:true, useCreateIndex:true, useFindAndModify:false})
