@@ -1,0 +1,24 @@
+{
+  "name": "smallcaseportfolio",
+  "version": "1.0.0",
+  "description": "Portfolio tracking APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node":"12.19.0"
+  },
+  "author": "Kshitij Srivastava",
+  "license": "ISC",
+  "dependencies": {
+    "bson": "^4.3.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "helmet": "^4.5.0",
+    "joi": "^17.4.0",
+    "joi-objectid": "^3.0.1",
+    "mongoose": "^5.12.4"
+  }
+}
